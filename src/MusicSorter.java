@@ -14,7 +14,7 @@ public class MusicSorter {
         //processFiles(sourceFolder,destinationFolder);
 
         // Sort existing files from "!New" folder to appropriate named (A to Z) folders
-        //processFiles(destinationNewFolder,destinationFolder);
+        processFiles(destinationNewFolder,destinationFolder);
 
         // Move new files to "!New" folder
         processFiles(sourceFolder,destinationNewFolder);
