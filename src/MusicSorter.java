@@ -7,7 +7,7 @@ public class MusicSorter {
 
     public static void main(String[] args) throws IOException {
         File sourceFolder = new File("C:\\Users\\igor_makarychev\\Downloads\\");
-        File destinationFolder = new File("F:\\");
+        File destinationFolder = new File("E:\\");
         File destinationNewFolder = new File(destinationFolder+"!New\\");
 
         // Rename existing files
