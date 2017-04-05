@@ -6,9 +6,13 @@ import java.nio.file.StandardCopyOption;
 public class MusicSorter {
 
     public static void main(String[] args) throws IOException {
-        File sourceFolder = new File("C:\\Users\\igor_makarychev\\Downloads\\");
-        File destinationFolder = new File("E:\\");
-        File destinationNewFolder = new File(destinationFolder+"!New\\");
+        //File sourceFolder = new File("C:\\Users\\igor_makarychev\\Downloads\\");
+        //File destinationFolder = new File("E:\\");
+        //File destinationNewFolder = new File(destinationFolder+"!New\\");
+
+        File sourceFolder = new File("/Users/igormakarychev/Downloads/toFlash/");
+        File destinationFolder = new File("Volume/No name/");
+        File destinationNewFolder = new File(destinationFolder+"/!New/");
 
         // Rename existing files
         //processFiles(sourceFolder,destinationFolder);
